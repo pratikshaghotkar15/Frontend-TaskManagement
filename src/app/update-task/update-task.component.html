@@ -1,0 +1,35 @@
+<h3 class="text-center">Update Task</h3>
+<div class="container" style="width: 800px;">
+ <form (ngSubmit)="onSubmit()">
+ 
+    <div class="form-group">
+      <label for="name">Title</label>
+      <input type="text" class="form-control" id="title" required [(ngModel)]="task.title" name="title">
+    </div>
+     <br>
+    <div class="form-group">
+      <label for="name">Description</label>
+      <input type="text" class="form-control" id="description" required [(ngModel)]="task.description" name="description">
+    </div>
+   <br>
+    <div class="form-group">
+      <label for="name">Due Date</label>
+      <input type="date" class="form-control" id="duedate" required [(ngModel)]="task.duedate" name="duedate">
+    </div>
+	<br>
+	<div class="form-group">
+      <label for="name">Status</label>
+      <input type="radio"   required [(ngModel)]="task.status" name="status" value="pending">Pending
+      <input type="radio"   required [(ngModel)]="task.status" name="status" value="completed">Complete
+    </div>
+	<br>
+    <div class="form-group">
+        <label for="name">User-Creadted By</label>
+        <input type="number" class="form-control"  required [(ngModel)]="task.user_id" name="user_id">
+      </div>
+      <br>
+    <button type="submit" class="btn btn-success">Submit</button>
+	
+ </form>
+ </div>
+ 

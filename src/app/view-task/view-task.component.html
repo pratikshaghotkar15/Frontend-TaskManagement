@@ -1,0 +1,43 @@
+<div *ngIf="isDeleted">Saved successfully
+</div>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h2 class="text-center">Tasks List</h2>
+      </div>
+    <div class="container">
+    <div class="panel-body">
+    <table class="table table-bordered">
+    <thead class="thead-dark">
+    <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Due Date</th>
+    <th>Status </th>
+    <th>Actions</th>
+    <th>Actions</th>
+    <th>Actions</th>
+    
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let task of tasks">
+    <td>{{task.title}}</td>
+    <td>{{task.description}}</td>
+    <td>{{task.duedate}}</td>
+    <td>{{task.status}}</td>
+
+    
+    <td><button (click)="updateTask(task.taskId)" class="btn btn-success">Update</button></td>
+    <td><button (click)="deleteTask(task.taskId)" class="btn btn-danger" style="margin-left:10px">Delete</button></td>
+    <td><button (click)="changeStatus(task.taskId)" class="btn btn-danger" style="margin-left:10px">Change Status</button></td>
+
+    
+    </tr>
+    </tbody>
+    </table>
+    </div>
+    </div>
+    </div>
+    
+    
