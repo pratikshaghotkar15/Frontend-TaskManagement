@@ -28,10 +28,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-![Screenshot (562)](https://github.com/pratikshaghotkar15/Frontend-TaskManagement/assets/99399335/e76d6b50-f3fd-48c2-9433-6e1ebdf65338)
-![Screenshot (563)](https://github.com/pratikshaghotkar15/Frontend-TaskManagement/assets/99399335/856fa8f8-6cae-4ccb-82c9-a2468b496d4d)
-![Screenshot (564)](https://github.com/pratikshaghotkar15/Frontend-TaskManagement/assets/99399335/cef63d96-e53c-4ad3-accc-854f5ea7c579)
-![Screenshot (565)](https://github.com/pratikshaghotkar15/Frontend-TaskManagement/assets/99399335/f50ab75e-579f-448f-a843-315056788ab6)
-![Screenshot (566)](https://github.com/pratikshaghotkar15/Frontend-TaskManagement/assets/99399335/7ee796c9-4755-405c-976a-658c103005c6)
-![Screenshot (567)](https://github.com/pratikshaghotkar15/Frontend-TaskManagement/assets/99399335/4b772fc9-f7d5-4c19-9224-24f1b7031c4a)
-![Screenshot (568)](https://github.com/pratikshaghotkar15/Frontend-TaskManagement/assets/99399335/0a3c7121-8e18-4923-a5d5-7847780f11ef)
